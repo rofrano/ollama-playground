@@ -1,4 +1,4 @@
-langchain
-langchainhub
-beautifulsoup4
-chromadb
+langchain==0.0.353
+langchainhub==0.1.14
+beautifulsoup4==4.12.2
+chromadb==0.4.21

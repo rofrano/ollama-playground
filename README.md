@@ -34,6 +34,8 @@ python rag.py --url https://techcrunch.com/
 
 Here are the execution times on my 16-inch 2023 MacBook Pro M3 Max with 14 CPUs and 36GB memory.
 
+I ran these after an initial run to prime the model so that all subsequent runs would have the same advantage. The initial run of `basic.py` took `12` seconds while all subsequent runs took `6` seconds which suggest that there is a `6` second startup overhead thr first time you load the model.
+
 | Program  | Execution Time |
 |----------|----------------|
 | basic.py | 6.557268 sec.  |
