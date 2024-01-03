@@ -29,3 +29,12 @@ For example:
 ```bash
 python rag.py --url https://techcrunch.com/
 ```
+
+## Execution time
+
+Here are the execution times on my 16-inch 2023 MacBook Pro M3 Max with 14 CPUs and 36GB memory.
+
+| Program  | Execution Time |
+|----------|----------------|
+| basic.py | 6.557268 sec.  |
+| rag.py   | 15.280634 sec. |

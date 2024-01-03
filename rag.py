@@ -1,4 +1,8 @@
+"""
+Basic example of using Ollama
+"""
 # cspell: disable
+import time
 
 # Load web page
 import argparse
@@ -69,4 +73,9 @@ def main():
 
 # python rag.py --url https://techcrunch.com/
 if __name__ == "__main__":
+    start = time.perf_counter()  # Save the current time before calling the functions
     main()
+    end = time.perf_counter()     # Save the current time after calling the functions
+    execution_time = end - start  # Calculate the elapsed time
+
+    print("\n---\nTotal execution time took {:.6f} seconds to execute.".format(execution_time))
