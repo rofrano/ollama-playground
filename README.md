@@ -4,12 +4,19 @@ This repo contains some experiments using [Ollama](http://ollama.ai) models. Som
 
 ## Getting started
 
-Establish a Python virtual environment
+Establish a Python virtual environment with `pip`.
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+Establish a Python virtual environment with Poetry
+
+```bash
+poetry shell
+poetry install --no-root
 ```
 
 ## The basic test
